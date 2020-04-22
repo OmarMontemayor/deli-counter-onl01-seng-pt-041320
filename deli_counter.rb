@@ -13,9 +13,11 @@ end
 
 def take_a_number(katz_deli, name)
   if katz_deli.length == 0
-    katz_deli.push(name) do |name, index|          
-      "Welcome, #{name}. You are number #{index +1} in line."
+    katz_deli.push(name) do |name|          
+      "Welcome, #{name}. You are number 1 in line."
     end
+  else 
+    
   end
 end
 
